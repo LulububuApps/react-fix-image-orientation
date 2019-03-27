@@ -1,15 +1,15 @@
-# react-exif-orientation-img
+# react-fix-image-orientation
 
 `img` element wrapper component for React that understands EXIF orientation information and corrects it using CSS transforms.
 
-![Example](example.png)
+![Example](https://github.com/yogakurniawan/react-fix-image-orientation/raw/master/example.png)
 
 ## Installation
 
 ```sh
-npm install --save react-exif-orientation-img
+npm install --save react-fix-image-orientation
 # or
-yarn add react-exif-orientation-img
+yarn add react-fix-image-orientation
 ```
 
 ## Usage
@@ -18,10 +18,10 @@ Instead of using an `img` element, use this component instead:
 
 ```js
 import React from 'react';
-import ExifOrientationImg from 'react-exif-orientation-img'
+import Img from 'react-fix-image-orientation'
 
 const MyComponent = () =>
-  <ExifOrientationImg
+  <Img
     src="https://github.com/recurser/exif-orientation-examples/blob/master/Portrait_8.jpg?raw=true"
     alt="A waterfall"
   />
