@@ -1,6 +1,6 @@
 {
-  "name": "react-exif-orientation-img",
-  "version": "0.1.5",
+  "name": "react-fix-image-orientation",
+  "version": "0.1.0",
   "description": "img element wrapper component for React that understands EXIF orientation information and corrects it using CSS transforms.",
   "keywords": [
     "react",
@@ -9,13 +9,14 @@
     "orientation",
     "image"
   ],
-  "homepage": "https://github.com/rricard/react-exif-orientation-img",
+  "homepage": "https://github.com/yogakurniawan/react-fix-image-orientation",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rricard/react-exif-orientation-img/issues"
+    "url": "https://github.com/yogakurniawan/react-fix-image-orientation/issues"
   },
   "contributors": [
-    "Robin Ricard"
+    "Robin Ricard",
+    "Yoga Kurniawan"
   ],
   "main": "./lib/index.js",
   "dependencies": {
