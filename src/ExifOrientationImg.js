@@ -19,7 +19,6 @@ class ExifOrientationImg extends Component {
     const [event, ...otherArgs] = args;
     const imageElement = event.target;
     const { onLoad } = this.props;
-    debugger;
 
     // Fix for an issue affecting exif-js: see https://github.com/exif-js/exif-js/issues/95
     const windowImage = window.Image;
